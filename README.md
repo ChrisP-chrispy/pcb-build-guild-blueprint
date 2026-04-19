@@ -1,25 +1,32 @@
-1) What this project is?
+Explanation of the Project
+1. What this project is?
 
-This project is a compact custom 3-key macropad PCB designed for simple input automation. It consists of a small printed circuit board that supports three mechanical switches, typically connected to a microcontroller for programmable functionality.
+This project is a custom-designed 3-key macropad PCB, a small input device built with three mechanical switches that can be programmed to perform specific tasks. What makes it unique is its minimalist design—instead of a full keyboard or large macropad, it focuses on just three keys to keep things simple, compact, and efficient. It’s designed as both a functional tool and a learning project for PCB design and hardware interfacing.
 
-2) What it does?
+2. How you use it?
 
-The macropad allows users to assign custom actions to each of the three keys. These actions can include:
+The macropad is used by connecting it to a computer via USB. Once connected, it behaves like a standard input device. Each of the three switches can be programmed with custom functions using firmware (such as sending keyboard shortcuts or macros).
 
-Keyboard shortcuts (e.g., copy, paste, undo)
-Launching applications
-Media controls (volume, play/pause)
-Custom macros for productivity or gaming
+For example:
 
-When connected to a computer, the device acts as a USB input device and sends predefined commands when a key is pressed.
+One key can be set to copy (Ctrl + C)
+Another can paste (Ctrl + V)
+The third can open an application or mute audio
 
-3) Why it exists?
+To use it:
 
-This project exists to provide a simple, low-cost, and customizable input device for users who want quick access to frequently used commands. It is especially useful for:
+Plug the macropad into your computer.
+Flash or upload your desired firmware configuration.
+Assign specific actions to each key.
+Press the keys to execute those actions instantly.
 
-Improving workflow efficiency
-Reducing repetitive tasks
-Learning PCB design and embedded systems
-Building a personalized hardware tool
+This makes repetitive tasks faster and more convenient, especially during work, gaming, or content creation.
 
-The 3-key design keeps the project minimal and beginner-friendly while still being practical.
+3.Why I made it?
+
+I made this project to explore PCB design and embedded systems in a hands-on way while also creating something practical. Instead of building a large and complex device, I wanted to challenge myself to make something small, simple, and efficient.
+
+I also wanted a quick-access tool for everyday tasks—pressing a single button is much easier than remembering multiple keyboard shortcuts. This project solves that problem by turning frequently used actions into dedicated physical buttons.
+
+At the same time, it serves as a beginner-friendly project that demonstrates how hardware and software can work together to create a useful, customizable device.
+<img width="719" height="853" alt="Screenshot 2026-04-19 140018" src="https://github.com/user-attachments/assets/c54b23c4-3dd0-48bf-944f-5eed8169dc2b" />
